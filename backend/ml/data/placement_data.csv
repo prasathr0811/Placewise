@@ -1,0 +1,601 @@
+student_id,branch,gender,cgpa,internships,backlogs,projects,certifications,aptitude_score,communication_score,skills,placed,salary_lpa
+1,IT,F,8.1,0,2,3,2,57,73,Java|Tableau|AWS,1,5.56
+2,CSE,M,8.66,0,0,1,3,88,68,SQL|Python|NLP|Power BI|Leadership,1,6.93
+3,ECE,M,8.49,0,0,0,3,69,79,Power BI|ML|React|Problem Solving,1,6.77
+4,MECH,M,9.28,1,0,4,2,71,75,Java|Data Analysis|Deep Learning|ML|Node.js|Problem Solving,1,9.83
+5,CSE,M,9.44,0,0,0,3,68,63,Tableau|AWS|Communication|Problem Solving|Statistics|C++|NLP|ML|Docker|Leadership,1,10.09
+6,CSE,F,8.3,1,1,2,0,51,65,Statistics|Deep Learning|Docker|Git|NLP|Power BI,0,0.0
+7,CSE,F,7.21,0,3,4,2,100,55,React|Statistics|Excel|Data Analysis|Java|Deep Learning,0,0.0
+8,IT,F,8.5,1,1,2,0,59,71,C++|Statistics|Power BI|Problem Solving|Docker,1,7.03
+9,CSE,F,8.28,2,0,4,0,51,57,ML|C++|Deep Learning|Excel|Problem Solving,1,7.6
+10,ECE,M,9.45,1,0,2,3,72,41,C++|Tableau|Java|SQL|AWS|React,1,11.29
+11,IT,F,9.15,0,0,5,0,59,67,Git|AWS|Docker|Tableau|Data Analysis|Leadership|ML|SQL|Statistics,1,9.81
+12,IT,M,9.25,3,1,4,4,72,61,NLP|Docker|React|ML|AWS|Java,1,10.78
+13,IT,M,7.17,2,0,2,0,94,64,Power BI|Problem Solving|Tableau|Data Analysis,0,0.0
+14,EEE,M,8.21,2,0,3,4,69,63,Communication|Node.js|Docker|Java|NLP|Tableau|Python|React|Problem Solving,0,0.0
+15,CSE,F,9.16,2,2,5,5,58,68,AWS|Power BI|C++|Problem Solving|Statistics|Git|Communication,0,0.0
+16,ECE,M,8.75,0,0,0,0,48,76,Git|AWS|Java|Leadership|Node.js,0,0.0
+17,ECE,M,8.15,0,4,5,3,60,53,SQL|Excel|Java,0,0.0
+18,CIVIL,F,6.83,0,0,0,5,69,48,Problem Solving|ML|Node.js|Docker,0,0.0
+19,EEE,M,9.05,0,3,1,3,40,60,Excel|Docker|ML|Node.js|SQL|Java|NLP|Data Analysis,0,0.0
+20,CIVIL,F,7.84,1,0,3,5,79,69,Excel|C++|Tableau|React|SQL|Communication|AWS|Git|Power BI,1,10.98
+21,IT,F,8.99,1,4,4,1,90,74,Excel|ML|Node.js|Data Analysis,1,8.77
+22,MECH,F,9.07,1,0,1,4,71,53,ML|Leadership|Node.js|Statistics|Java|Data Analysis|Problem Solving|Python,1,8.03
+23,ECE,M,8.41,1,0,4,5,89,68,Docker|Java|AWS,0,0.0
+24,MECH,M,8.01,2,1,1,2,63,58,Excel|Git|AWS|Node.js|React|Java|C++|Tableau|SQL|Problem Solving,0,0.0
+25,IT,F,8.31,1,0,5,0,76,71,Communication|Docker|React|Tableau|Power BI,1,9.15
+26,ECE,F,9.82,2,3,4,5,40,87,Communication|Leadership|Excel|ML|Problem Solving,1,10.68
+27,EEE,M,8.31,1,2,2,1,52,80,React|NLP,1,7.27
+28,MECH,M,9.86,1,1,0,0,66,75,ML|React|Java|Tableau|Problem Solving|Python,1,9.55
+29,IT,M,8.31,2,1,2,3,54,77,Leadership|Excel|Tableau|Docker,1,8.77
+30,CSE,M,9.01,2,1,0,0,51,40,Problem Solving|AWS|React|Deep Learning|Statistics,0,0.0
+31,CIVIL,M,9.72,0,1,4,0,40,70,React|Communication|Tableau,1,7.74
+32,ECE,F,7.76,1,0,1,2,79,41,Power BI|Deep Learning|React|Leadership|Communication|Tableau,0,0.0
+33,ECE,M,9.57,3,1,4,2,92,66,Power BI|Node.js|Communication|ML|Git|Python|SQL,1,12.54
+34,IT,M,7.88,1,4,0,2,67,61,Statistics|Docker,1,8.05
+35,CSE,M,7.16,0,1,0,4,54,55,Excel|ML|Node.js,1,7.84
+36,CIVIL,F,8.87,3,3,3,2,77,67,Deep Learning,1,8.67
+37,EEE,M,8.41,1,3,1,3,67,66,Problem Solving|NLP|Java|Python|Power BI|ML|Git|Leadership|Docker,1,10.24
+38,IT,M,9.04,3,0,0,0,48,75,Problem Solving|Statistics|Communication|Python|Docker|SQL|Excel|ML|Data Analysis,1,9.55
+39,CSE,M,9.29,3,3,2,3,82,86,Docker|Communication|Git|Python|Statistics|React,0,0.0
+40,MECH,F,9.24,1,0,4,1,66,73,ML|React,0,0.0
+41,ECE,F,8.3,2,1,5,3,72,62,NLP|SQL|Node.js|Deep Learning,1,9.09
+42,CSE,M,9.33,2,2,3,3,62,58,NLP|React|Java|Communication|Leadership|Node.js,1,10.63
+43,IT,M,9.77,2,1,3,1,40,54,React|Communication|Docker,0,0.0
+44,CSE,F,9.65,0,0,4,4,100,62,Node.js|Data Analysis|Java|Excel|Deep Learning,1,8.52
+45,CIVIL,M,9.53,2,1,0,0,79,77,Communication|SQL|Git,1,9.48
+46,IT,F,8.66,2,4,4,2,73,68,Deep Learning|Python|Problem Solving|SQL|Tableau|C++,1,10.38
+47,EEE,M,8.84,1,1,1,2,65,66,Problem Solving|Leadership|Java,1,8.17
+48,IT,F,8.48,0,0,2,4,82,83,Problem Solving|Excel|SQL,1,7.76
+49,IT,M,9.45,2,0,3,3,64,72,Git|Communication|Java,1,8.26
+50,ECE,F,8.6,1,0,5,1,62,60,Node.js|Statistics,1,7.7
+51,MECH,M,5.9,0,0,1,1,54,72,Communication|C++|SQL,0,0.0
+52,MECH,F,8.0,1,0,0,0,61,57,Statistics|Data Analysis,1,8.84
+53,IT,M,9.44,1,1,1,1,55,40,Docker|Node.js|Python|Tableau|SQL|Excel|Power BI|AWS,1,9.28
+54,CSE,F,8.48,3,0,1,5,40,63,Deep Learning|Communication|Git|React,1,9.36
+55,CSE,F,8.27,1,4,5,5,85,100,AWS|NLP|Statistics|Problem Solving|Tableau|React|Excel,0,0.0
+56,IT,M,8.59,0,0,2,3,71,73,Problem Solving|C++|Power BI|Statistics,1,7.04
+57,CSE,M,9.34,0,1,1,3,55,75,Leadership|Deep Learning|Tableau|Power BI|Python,1,8.62
+58,CIVIL,M,8.44,1,2,0,3,43,64,Excel|SQL|C++|Git,0,0.0
+59,CSE,M,9.39,1,0,3,5,61,97,Excel|React|Data Analysis|C++|AWS,0,0.0
+60,IT,M,7.75,1,0,5,0,66,85,Docker|Leadership|Statistics,1,8.09
+61,IT,M,7.79,0,0,2,1,54,64,Excel|Java|Node.js|NLP|Problem Solving|C++|Git|Tableau|Docker|ML,0,0.0
+62,MECH,F,7.69,1,0,4,4,56,40,NLP,0,0.0
+63,IT,M,8.29,1,2,1,4,69,54,ML|AWS|Tableau|Power BI|Communication|NLP|SQL|Excel|Leadership,1,9.29
+64,CSE,M,8.21,0,1,1,5,73,48,Deep Learning|Communication|Data Analysis|ML|Tableau,0,0.0
+65,ECE,M,6.78,2,1,2,1,91,73,NLP|Git|Java,0,0.0
+66,IT,F,8.3,1,5,5,3,82,70,AWS|Java|Communication|Problem Solving|ML|Tableau|React,1,8.6
+67,CSE,M,8.58,0,3,1,2,81,52,Node.js|SQL|Deep Learning|Problem Solving|React|Communication|Python,0,0.0
+68,EEE,F,8.12,0,1,5,4,74,58,Excel|Python|Git|Power BI|Data Analysis,0,0.0
+69,CSE,F,8.25,0,1,0,1,84,56,Docker|SQL|Node.js|Statistics|Communication|C++|Deep Learning,1,8.37
+70,EEE,M,8.96,0,2,1,2,54,40,Leadership|C++|Data Analysis|Git|Statistics,1,8.81
+71,IT,M,9.4,3,0,1,0,50,57,SQL|Data Analysis,1,9.71
+72,CIVIL,M,8.01,3,4,4,0,52,62,ML|SQL|C++|Power BI|Deep Learning|Node.js,0,0.0
+73,ECE,M,9.72,1,2,1,2,55,53,React|C++|Leadership,1,8.02
+74,IT,F,9.83,1,0,3,1,49,61,Git|Python|Communication|Statistics|C++|Problem Solving|SQL,0,0.0
+75,CSE,M,8.32,1,1,5,2,76,67,AWS|Tableau|Problem Solving|Data Analysis|Power BI,1,8.84
+76,EEE,M,8.76,1,0,3,3,48,52,Git|Problem Solving|Excel|Leadership|Deep Learning|Communication|NLP,0,0.0
+77,ECE,M,7.35,0,2,3,0,57,76,Java|Git|Communication|Node.js|Tableau|React,1,7.4
+78,ECE,M,8.38,1,4,5,2,63,56,Problem Solving|Node.js|Deep Learning|Java|Leadership|Power BI|Excel,0,0.0
+79,CSE,M,9.8,0,0,5,0,60,71,Power BI|NLP|Python|React|Communication|Problem Solving,1,9.91
+80,MECH,F,7.38,1,2,0,2,62,79,Tableau|Data Analysis|Docker|Deep Learning|Python|Git,1,7.29
+81,IT,M,8.44,1,0,0,4,40,82,Java,0,0.0
+82,ECE,M,8.95,0,0,2,3,56,70,Communication|SQL|NLP|Tableau,1,8.67
+83,IT,M,9.41,0,0,1,4,48,86,Power BI|Node.js|Leadership|Python|C++|Excel,1,8.03
+84,IT,F,8.94,0,0,2,1,42,53,Deep Learning|Communication|C++|Git|Python,1,7.9
+85,IT,M,8.16,1,1,2,2,40,52,Git|AWS|Docker|Power BI|React|SQL,1,6.76
+86,IT,M,8.12,1,0,5,3,64,65,Git|Node.js,0,0.0
+87,CSE,M,8.49,0,1,4,2,57,69,Statistics|Excel|Java,1,7.21
+88,ECE,M,9.82,1,0,3,0,63,47,Problem Solving|Communication|Data Analysis|Excel|Deep Learning|Docker|Power BI|Java|SQL|AWS,1,11.87
+89,MECH,M,7.39,0,0,5,4,94,61,React|Deep Learning|ML|NLP|Git|Python,0,0.0
+90,CSE,F,8.35,1,0,0,1,62,53,React|Leadership|Deep Learning|ML|Docker,1,9.25
+91,CSE,F,9.58,0,1,0,0,57,66,Problem Solving|Power BI|SQL|Python|AWS|Tableau,0,0.0
+92,IT,M,8.48,1,0,0,1,77,75,Power BI|C++|ML|Java|React|Docker,0,0.0
+93,IT,M,9.52,1,3,0,1,70,58,Node.js|Excel|NLP|React|C++|Java|Communication|Data Analysis,1,9.63
+94,MECH,M,9.44,2,0,4,4,89,55,Communication|Deep Learning|Problem Solving|Leadership,1,9.86
+95,ECE,M,8.9,1,0,1,5,72,69,Git|React|Power BI|Java|Problem Solving|Statistics|Communication|Deep Learning,0,0.0
+96,IT,M,9.29,1,0,4,0,67,66,NLP|Problem Solving|Data Analysis|Java,0,0.0
+97,EEE,F,9.59,1,5,4,3,64,73,Java|NLP,0,0.0
+98,IT,F,8.77,3,0,0,2,59,63,Statistics|AWS|Python|React,0,0.0
+99,EEE,F,9.65,1,0,5,1,71,71,SQL|AWS|Statistics|Problem Solving|Leadership|Deep Learning|NLP,0,0.0
+100,IT,M,8.83,0,0,4,2,45,100,Node.js|NLP|AWS|C++|Excel,0,0.0
+101,CIVIL,M,8.87,0,1,0,4,76,90,Communication|Problem Solving|Python|NLP|Leadership,1,8.06
+102,CSE,M,9.1,2,0,2,4,78,76,Leadership|NLP|Statistics|Communication,1,9.23
+103,CSE,M,7.76,1,2,1,1,51,52,AWS|Git,0,0.0
+104,ECE,F,7.92,2,2,5,0,42,94,ML|Communication|SQL|Leadership,1,10.7
+105,IT,M,8.64,1,0,3,3,60,63,C++|Deep Learning|Power BI|AWS|Docker|Data Analysis|Statistics|Communication,0,0.0
+106,MECH,M,8.0,2,0,3,3,75,59,Docker|Problem Solving|AWS|Statistics|NLP|Python,1,10.17
+107,IT,F,8.61,1,0,3,0,40,85,Power BI|SQL|Problem Solving|React|Git|ML,1,9.46
+108,CSE,M,9.35,1,1,5,5,69,48,Node.js|Data Analysis|Problem Solving,1,8.07
+109,ECE,F,8.64,2,1,3,0,69,65,React|Tableau|Deep Learning|C++,0,0.0
+110,IT,M,7.5,0,1,0,4,85,70,Leadership,0,0.0
+111,CIVIL,M,8.13,1,0,1,0,75,67,Tableau|React|Excel|Leadership|SQL,1,9.09
+112,ECE,F,7.89,1,0,3,0,57,86,Data Analysis|Communication|Tableau|AWS|Node.js|ML,1,8.3
+113,ECE,M,7.6,3,4,3,5,73,66,Docker|Node.js|Git|Tableau|ML|Problem Solving|Power BI|Java|Deep Learning,1,8.25
+114,ECE,M,7.98,0,0,4,1,86,67,NLP|Node.js|Deep Learning|React,1,7.03
+115,EEE,M,7.1,2,0,1,0,57,55,NLP|ML|SQL|AWS|Leadership,0,0.0
+116,CIVIL,F,8.03,2,0,1,3,77,70,ML|Node.js|Docker|Problem Solving|Power BI|Git,1,9.69
+117,CSE,M,8.31,1,5,1,1,69,65,Deep Learning|Power BI|AWS,1,8.22
+118,IT,M,7.6,0,0,3,4,48,88,AWS|Tableau|Java|React,0,0.0
+119,EEE,F,9.2,1,4,0,5,68,48,SQL|Statistics|Problem Solving|Java|AWS|Data Analysis|C++|Node.js|Power BI,1,10.74
+120,IT,M,8.37,2,0,5,2,90,66,Data Analysis|Statistics|Docker|Tableau|C++,1,10.47
+121,ECE,M,8.13,0,2,2,1,84,95,Deep Learning|Tableau|Python|Statistics|C++|NLP|Power BI|Node.js,1,9.43
+122,CIVIL,F,8.9,0,0,1,2,49,87,Leadership|Node.js|Data Analysis|Excel|Java|Tableau|Power BI|Git|Problem Solving,0,0.0
+123,CSE,F,7.4,1,2,1,3,67,67,Tableau|Java,0,0.0
+124,ECE,F,9.06,1,0,0,1,69,55,Leadership|Python|React,1,8.59
+125,IT,M,8.74,0,0,2,3,48,70,Data Analysis|ML|NLP|Git|Leadership,1,8.14
+126,ECE,M,8.75,3,0,4,1,49,96,Data Analysis|Statistics|Power BI|Excel|Problem Solving,1,9.47
+127,ECE,F,9.05,0,0,3,4,51,54,Problem Solving|Deep Learning|Statistics,0,0.0
+128,CSE,F,9.09,0,0,1,1,62,57,NLP|Problem Solving|Deep Learning,1,7.57
+129,IT,M,8.25,0,0,0,2,59,76,Deep Learning|Data Analysis|React|Node.js|ML,1,7.91
+130,CSE,M,7.82,2,3,5,1,81,52,Statistics|NLP|Docker|Excel|Leadership,1,9.62
+131,ECE,M,8.37,2,1,3,3,74,55,AWS|Git|Deep Learning|React|Tableau,1,9.07
+132,MECH,M,8.47,0,0,2,0,50,91,Git|Excel|Tableau|Leadership|Data Analysis,1,8.05
+133,CIVIL,M,7.65,1,0,3,3,92,51,Power BI|NLP|Tableau|Java|Excel|Leadership|C++|Statistics,1,9.1
+134,ECE,F,9.03,0,1,4,4,40,52,Leadership|ML,1,6.53
+135,MECH,M,9.63,1,2,4,0,69,51,AWS,1,8.26
+136,CIVIL,F,9.2,2,2,4,4,44,54,AWS|Docker,1,9.05
+137,ECE,M,7.82,2,2,4,4,70,59,Excel|Python|Git|Statistics|Java|Tableau|React,0,0.0
+138,IT,M,8.56,0,0,2,4,69,89,C++|NLP|Power BI|Tableau|Problem Solving|Python,0,0.0
+139,IT,F,9.42,0,2,5,4,50,48,AWS|Data Analysis|Node.js|React,0,0.0
+140,ECE,M,8.08,1,0,3,4,60,71,Java|SQL|Tableau,1,8.19
+141,ECE,M,9.07,1,1,3,1,90,52,C++|Node.js,0,0.0
+142,EEE,M,8.35,1,0,3,4,68,40,NLP|AWS,0,0.0
+143,CSE,F,9.46,0,0,1,2,49,59,React,1,8.38
+144,IT,M,8.97,1,0,3,3,60,56,Python|SQL|AWS|Problem Solving|Communication|Git,0,0.0
+145,CIVIL,F,7.78,1,0,4,2,57,52,Node.js|Docker|SQL|Git|Deep Learning,0,0.0
+146,CSE,M,9.46,2,3,3,2,67,66,Power BI|AWS|Docker|Tableau|Problem Solving|Communication|SQL,1,11.16
+147,MECH,M,9.62,1,0,2,3,68,49,Communication|Python|Tableau|Java|Docker|Deep Learning,1,10.76
+148,CSE,M,9.23,3,0,5,2,83,81,Power BI,1,10.26
+149,EEE,M,9.23,0,2,5,5,83,47,C++|Node.js|Problem Solving|ML,1,7.9
+150,CSE,F,8.65,1,1,5,3,64,50,Statistics|SQL|Git|Tableau|Deep Learning,0,0.0
+151,CSE,M,6.78,1,2,1,3,68,66,Node.js|Excel|AWS|Java|Problem Solving|NLP|Tableau|Statistics,0,0.0
+152,CSE,F,8.07,1,1,5,4,52,70,Leadership|Data Analysis|Docker|Communication|Node.js|C++,0,0.0
+153,MECH,M,9.13,0,0,5,1,52,71,ML|Python|Leadership|Problem Solving|Git,1,9.41
+154,CSE,M,7.83,2,4,2,1,65,47,Communication|Git,0,0.0
+155,MECH,M,7.93,2,4,1,5,79,40,Data Analysis|Git,1,7.37
+156,ECE,M,9.22,1,2,4,1,86,65,C++|Problem Solving|Docker,0,0.0
+157,IT,F,9.3,2,5,3,5,66,85,C++|ML|Data Analysis|NLP|Docker,1,8.95
+158,CSE,F,9.1,1,0,4,5,92,42,Docker|Statistics|Power BI|ML|Python,1,8.8
+159,CSE,F,9.42,1,1,2,0,64,69,Tableau|Power BI|ML|Git|SQL,0,0.0
+160,EEE,M,8.08,2,0,1,3,40,52,Tableau|Git|Leadership|C++|Python,1,7.55
+161,CSE,F,9.39,2,0,3,4,62,70,Python|ML|Deep Learning|Power BI|Git|Node.js|C++,1,9.89
+162,CSE,M,8.39,2,2,0,2,76,63,Data Analysis|Leadership|Deep Learning|Excel,1,9.47
+163,CSE,F,9.14,0,0,2,1,68,56,Java|Tableau|Docker,0,0.0
+164,CSE,M,9.31,1,1,2,0,84,62,Data Analysis|Deep Learning|Docker|Communication|AWS|NLP|Git,1,9.65
+165,ECE,F,9.09,0,1,4,1,66,62,Git,1,6.7
+166,CSE,F,7.65,1,3,2,0,53,100,SQL|Leadership|Deep Learning|Data Analysis|Communication|Node.js|Docker|Statistics,1,9.06
+167,CSE,F,9.31,0,1,1,5,59,54,Tableau|Communication|Deep Learning|Python|Git|AWS,0,0.0
+168,CSE,F,7.23,2,0,0,5,56,53,Excel|Node.js,1,6.87
+169,CSE,F,9.4,1,0,3,0,65,83,Data Analysis,0,0.0
+170,ECE,M,8.41,0,0,3,2,59,63,AWS|ML|Statistics,0,0.0
+171,ECE,F,9.14,1,0,1,5,58,82,NLP|Tableau|Communication,1,8.74
+172,MECH,F,9.53,0,2,0,3,68,59,Excel|SQL|Data Analysis|Statistics|NLP|Power BI|ML|AWS|Tableau,0,0.0
+173,CSE,M,7.28,1,0,3,4,91,94,ML|Deep Learning|Problem Solving|NLP,0,0.0
+174,EEE,F,9.19,1,0,5,1,65,49,NLP|Java|Power BI|Node.js|Statistics|SQL,0,0.0
+175,IT,M,8.57,1,0,3,3,68,44,Python|Communication|Git|Problem Solving,1,7.58
+176,IT,M,8.01,2,2,2,2,72,52,Python|C++|React|ML|Statistics,1,9.99
+177,CSE,F,9.33,2,1,0,3,64,50,React|Python,0,0.0
+178,CSE,M,9.39,1,0,3,0,93,82,Git,1,8.27
+179,IT,M,9.03,0,1,2,1,43,40,Tableau|AWS|Git|Problem Solving,0,0.0
+180,MECH,M,8.2,1,2,1,4,51,55,Leadership|ML|Communication|Excel,1,7.89
+181,ECE,M,8.92,1,2,4,4,75,76,AWS|Problem Solving|Java|Excel|Git|Data Analysis,1,9.53
+182,IT,M,8.93,1,1,4,1,64,57,Tableau|Leadership|React|Docker|Communication|Git|Excel,0,0.0
+183,IT,F,9.38,3,0,0,5,52,40,Problem Solving|Excel|Data Analysis,1,8.91
+184,ECE,M,9.53,0,0,0,1,50,68,Tableau|Docker|C++|Deep Learning|SQL|Leadership,0,0.0
+185,EEE,M,9.25,1,4,5,0,81,53,Docker|NLP|Leadership|Tableau|Git,1,9.44
+186,IT,F,8.29,2,5,2,4,69,57,Power BI|C++|Git|Statistics,0,0.0
+187,IT,M,8.88,0,1,5,0,54,41,Python|Statistics|Power BI|C++|Git|Java|Deep Learning|Tableau|Leadership|ML,0,0.0
+188,IT,M,8.49,1,1,0,4,94,99,Git|React|Docker|Python|Power BI,1,9.3
+189,CSE,F,8.87,1,1,4,0,40,52,Docker|Node.js|Deep Learning,1,8.77
+190,IT,F,9.27,1,1,5,3,59,61,SQL|C++|Problem Solving|Node.js|ML|Power BI|Git,1,9.49
+191,CSE,M,9.59,1,0,2,5,53,70,Git|AWS,1,8.95
+192,CIVIL,F,8.97,1,2,3,5,58,58,Python|Deep Learning|Git|Docker|Tableau|Problem Solving,0,0.0
+193,ECE,F,8.53,0,2,4,2,89,40,C++|Power BI|Communication|Deep Learning|Tableau,1,8.16
+194,CIVIL,F,8.37,2,0,3,0,69,82,Node.js|Statistics|ML|AWS|Git|Tableau,1,9.71
+195,IT,M,9.6,0,0,4,2,81,73,Excel|Statistics|Communication|Deep Learning|Docker|Data Analysis,1,9.23
+196,CSE,M,8.89,0,2,2,5,44,71,Tableau|Node.js,1,8.32
+197,EEE,M,9.05,1,2,4,2,52,68,Power BI|AWS|Java|Docker|ML|Communication|Excel,1,8.82
+198,IT,M,9.14,0,0,5,0,66,56,NLP|C++|Leadership|Communication|SQL|Problem Solving|ML,1,8.03
+199,CSE,F,8.17,2,0,4,3,73,58,Docker|Problem Solving|Deep Learning|ML|C++|Java,1,9.89
+200,MECH,M,9.41,3,0,2,1,40,60,NLP|Git|SQL|Tableau|Problem Solving|Docker|Data Analysis|Node.js,0,0.0
+201,IT,M,8.13,1,1,4,4,52,66,Node.js|Data Analysis|Docker,1,6.89
+202,CSE,M,9.0,0,0,2,4,59,61,Communication|Excel|React|Java|NLP,0,0.0
+203,ECE,F,8.42,2,0,5,2,43,89,SQL|Node.js,0,0.0
+204,CIVIL,M,8.33,1,0,1,1,57,65,Python|Data Analysis|ML|Power BI|Git,0,0.0
+205,IT,F,8.75,0,1,4,5,49,71,Python|C++|Excel|SQL|Statistics|Tableau|AWS|NLP,1,9.63
+206,CSE,F,9.52,0,1,2,1,80,40,ML|Excel|C++,1,8.14
+207,EEE,M,8.84,0,0,5,5,93,88,Git|AWS|ML|Communication|Deep Learning|Python,0,0.0
+208,CSE,M,8.97,1,0,2,5,71,84,Power BI|Leadership|Node.js|NLP|Excel|Docker,0,0.0
+209,IT,F,8.78,1,0,2,1,53,69,Power BI|Git|ML|React,0,0.0
+210,IT,F,8.23,2,2,0,4,73,66,Excel|C++|NLP|Python|Problem Solving,1,8.19
+211,CSE,F,9.3,1,0,4,2,48,70,Data Analysis|C++|Power BI|Docker|Communication|Python|Tableau|Node.js|Git|ML,1,10.48
+212,CSE,F,9.63,0,1,5,0,84,75,Problem Solving|Tableau|Statistics|Data Analysis,1,9.51
+213,IT,F,7.62,2,0,0,4,70,68,NLP|Tableau|Statistics|AWS|Communication|Leadership|SQL|Power BI,0,0.0
+214,IT,M,9.69,2,0,2,3,54,82,C++|Git|Python|ML|Communication,1,10.56
+215,ECE,M,8.15,0,0,2,0,47,65,NLP|Python|SQL|C++,0,0.0
+216,IT,M,9.14,1,0,2,0,70,66,Python|Statistics|Data Analysis|Node.js|Excel,1,9.71
+217,CIVIL,M,8.53,1,1,3,3,55,49,Leadership|Power BI|Problem Solving|ML|AWS|Docker,0,0.0
+218,CSE,M,8.31,1,3,5,1,52,46,SQL|Tableau|NLP|Communication|Power BI,0,0.0
+219,CSE,M,9.43,2,0,5,3,65,62,NLP|Deep Learning|ML|Data Analysis,1,9.87
+220,MECH,M,8.7,3,1,5,0,51,63,ML|SQL|Tableau|Docker|Problem Solving,0,0.0
+221,EEE,F,9.1,1,0,3,0,82,48,Statistics|Git,0,0.0
+222,IT,F,7.69,1,0,1,3,63,91,Tableau|Communication|C++|Leadership,0,0.0
+223,MECH,M,9.65,0,0,0,5,54,40,Docker|Tableau|Statistics,0,0.0
+224,MECH,M,7.18,2,1,0,3,75,68,ML|Data Analysis|Python,1,8.51
+225,ECE,M,9.52,0,0,3,1,90,40,React|Python|Problem Solving|Docker|Git|Excel|Java,1,10.18
+226,EEE,F,8.31,1,1,0,5,60,54,Python|Node.js|Tableau|Power BI|Communication|Excel|SQL,1,9.97
+227,ECE,F,8.57,3,0,5,5,55,67,Excel|React|Problem Solving|Power BI|AWS|Deep Learning,0,0.0
+228,EEE,F,8.33,3,1,5,3,68,50,Data Analysis|SQL|Communication|Statistics|AWS,0,0.0
+229,IT,M,9.03,2,0,2,3,67,66,Leadership|NLP|Problem Solving|Data Analysis|Node.js|ML|Power BI|SQL,1,11.11
+230,ECE,F,8.1,1,1,1,5,47,64,AWS|React,0,0.0
+231,CIVIL,M,7.68,1,1,4,5,45,45,NLP|Statistics|Power BI|React|Java,1,6.19
+232,IT,M,7.61,0,1,2,0,52,78,C++|Power BI,0,0.0
+233,IT,F,7.88,2,0,4,1,55,50,AWS|Data Analysis|Git|Deep Learning|Power BI,0,0.0
+234,CIVIL,M,9.72,2,0,2,5,60,72,Communication|Python|Deep Learning|SQL|Excel,1,9.8
+235,ECE,M,8.18,1,1,1,0,69,59,Leadership|ML|Tableau|Problem Solving|Statistics|React|SQL,1,8.13
+236,IT,M,7.86,1,0,1,1,46,85,Excel|Statistics|Docker|Leadership|Node.js|SQL|Deep Learning,1,7.07
+237,CSE,M,9.4,1,3,2,5,77,93,SQL|Tableau,0,0.0
+238,IT,M,7.67,2,3,0,3,82,56,Docker|ML|Node.js|Tableau|Git,0,0.0
+239,CSE,F,9.55,0,1,4,1,71,49,Git|Node.js|SQL|Leadership|Data Analysis,1,9.16
+240,CIVIL,M,8.78,2,2,0,1,68,83,Node.js|React|Tableau,0,0.0
+241,EEE,M,9.32,0,2,4,3,59,49,Python|Problem Solving|Statistics|C++|Excel|NLP,1,9.49
+242,CSE,M,9.77,2,0,3,4,55,47,React|Leadership|C++,1,8.82
+243,IT,M,9.44,1,3,1,3,62,40,React|Deep Learning|AWS|Java|Power BI|Excel|Git|Leadership,1,8.94
+244,EEE,F,9.37,2,1,4,0,67,42,ML|C++|Git|Data Analysis|AWS|Problem Solving,1,9.51
+245,CSE,M,9.27,3,2,0,2,62,64,Statistics|Node.js|AWS|Deep Learning|Docker|Communication|ML,1,11.14
+246,CSE,M,7.01,2,0,1,5,58,76,React|Leadership|Statistics|Docker|Problem Solving|Tableau|Communication|AWS,0,0.0
+247,IT,F,8.58,1,0,2,4,58,69,Power BI|Excel|Docker,0,0.0
+248,ECE,M,8.6,2,0,3,5,66,44,Excel|Docker|Node.js|Problem Solving|SQL|Python|React|NLP,1,11.63
+249,IT,F,9.08,0,2,5,5,65,75,NLP|Statistics|Excel|Communication|Deep Learning|AWS,1,8.55
+250,CSE,M,8.4,0,5,0,3,100,60,Git,0,0.0
+251,EEE,M,9.65,1,0,1,4,72,77,Deep Learning|ML,1,9.17
+252,ECE,M,7.86,2,0,4,4,85,73,Node.js|Data Analysis,0,0.0
+253,CSE,F,8.29,2,0,2,1,64,51,Node.js|NLP|C++|Deep Learning|Power BI|Java|SQL|React|AWS|Data Analysis,1,9.53
+254,ECE,M,9.81,3,4,1,1,66,63,Problem Solving|Docker|Communication|Data Analysis|Power BI,1,9.39
+255,IT,F,8.82,1,0,3,0,79,69,Docker|SQL|Statistics|Problem Solving|Python|Communication,0,0.0
+256,CSE,F,9.85,2,0,2,2,73,49,SQL,1,9.68
+257,MECH,F,9.14,3,1,0,0,74,81,NLP|C++|Deep Learning|Power BI|Docker|React|SQL|Data Analysis,1,12.5
+258,IT,F,8.23,0,1,3,4,73,56,Node.js|NLP|Java|Leadership|Communication|C++|Python,1,7.5
+259,CSE,F,8.56,0,0,4,1,87,68,Data Analysis|Leadership|React,1,7.58
+260,ECE,M,8.37,3,1,1,1,55,60,ML|Excel|Node.js|AWS|Java|Leadership|Docker|Communication|NLP|Problem Solving,1,9.2
+261,CSE,F,8.0,1,0,4,2,47,100,Problem Solving|NLP|Java|AWS,0,0.0
+262,EEE,M,7.39,1,2,0,0,60,60,Node.js|Statistics|Power BI|Problem Solving|Leadership|NLP|Communication,1,9.26
+263,CIVIL,F,8.26,1,2,3,2,41,81,Deep Learning|Problem Solving|Statistics|Communication|React|Data Analysis|Java,0,0.0
+264,CSE,F,8.49,0,1,0,4,67,40,Git|AWS|Tableau|SQL|Communication|Power BI|Problem Solving|Excel|C++|Node.js,1,10.34
+265,EEE,M,8.76,2,1,1,0,66,45,NLP|Excel,0,0.0
+266,CSE,M,8.69,3,0,3,0,57,52,Data Analysis|Problem Solving|C++,0,0.0
+267,ECE,F,9.83,1,1,0,2,58,66,Power BI|Problem Solving|Tableau|ML|Git|SQL,0,0.0
+268,CSE,F,7.69,2,0,5,0,67,55,Docker|React|ML,0,0.0
+269,IT,F,6.62,3,1,5,1,60,56,SQL,0,0.0
+270,ECE,F,8.98,0,2,4,4,63,40,NLP|SQL|AWS|Data Analysis,1,8.18
+271,CIVIL,M,8.09,0,0,3,5,73,90,Statistics|Node.js|Java|NLP|React|Tableau|Deep Learning,1,9.0
+272,IT,M,9.44,1,0,2,5,40,62,AWS|Git|Tableau|Deep Learning|ML|Statistics|SQL|Docker|Problem Solving|React,0,0.0
+273,IT,M,8.68,1,0,3,4,100,69,SQL|NLP|Deep Learning|Power BI|Node.js|Tableau|React|C++|Data Analysis|Git,1,10.03
+274,MECH,F,9.64,2,1,0,1,52,43,AWS|ML,1,9.33
+275,IT,F,8.24,1,1,3,0,98,57,Tableau|NLP|Node.js|Git,1,8.22
+276,ECE,M,7.07,2,0,5,3,62,71,Docker|Node.js|Leadership|React|Statistics,0,0.0
+277,MECH,M,7.63,0,1,4,0,61,79,Deep Learning|Excel|C++|Communication,0,0.0
+278,ECE,M,8.61,1,3,4,5,54,86,Node.js|Java|Communication|Docker|Statistics|Python|Power BI|Problem Solving|Tableau,1,10.22
+279,EEE,M,9.37,0,2,5,2,49,55,Deep Learning,1,7.72
+280,CSE,F,9.19,3,3,1,5,49,60,Deep Learning|Python|Excel|AWS|Git|Problem Solving,1,10.85
+281,CSE,M,9.07,0,0,5,4,75,74,React|Leadership|ML,1,7.41
+282,EEE,F,9.4,1,0,3,4,69,55,Deep Learning|Power BI,1,9.57
+283,IT,F,9.36,2,2,2,1,86,77,Excel|Java|Problem Solving|ML|AWS,1,9.75
+284,EEE,M,9.59,0,0,2,4,40,61,Deep Learning|SQL|Node.js|Data Analysis|Leadership,1,9.1
+285,MECH,M,8.45,0,0,3,5,60,48,NLP|Excel|Deep Learning|Power BI,0,0.0
+286,IT,M,9.48,2,0,5,0,90,64,Node.js|React,1,9.69
+287,CSE,F,7.08,1,3,0,2,84,67,Power BI|AWS,0,0.0
+288,CSE,F,8.48,1,0,3,0,50,53,ML|SQL|Tableau|AWS|Leadership|Problem Solving|Deep Learning,0,0.0
+289,ECE,F,9.03,0,0,1,5,74,63,AWS|NLP|Power BI|Node.js|Data Analysis,0,0.0
+290,CSE,M,8.81,2,0,3,4,40,69,Git|C++,0,0.0
+291,CIVIL,F,9.32,1,2,5,2,46,86,Communication|Statistics|Java|NLP|Deep Learning|Leadership,1,9.63
+292,CSE,F,9.12,2,0,4,4,78,70,ML|Git|Problem Solving|Statistics|Tableau|C++|Node.js|SQL|Power BI,1,10.99
+293,CSE,F,8.83,2,0,0,5,73,40,Problem Solving|Excel|AWS|Python|SQL|Data Analysis,0,0.0
+294,MECH,M,9.59,2,0,1,3,72,63,Communication|C++|Java|React|Excel|ML|Python|Node.js,1,11.22
+295,CSE,M,8.39,1,0,2,2,55,58,Docker|Java|Deep Learning|Python,1,7.41
+296,IT,F,8.44,1,0,3,5,40,67,Excel|Python|Java|C++|NLP,1,7.64
+297,ECE,M,9.97,1,1,3,5,63,40,Git|ML|AWS|Excel|NLP|Docker,0,0.0
+298,IT,F,8.41,0,0,2,2,55,58,Java|Data Analysis|Leadership,1,6.02
+299,CSE,F,9.5,3,5,4,0,57,51,ML|AWS|Communication|Leadership|React,1,11.46
+300,IT,M,7.92,1,2,4,0,40,86,C++|Problem Solving|Data Analysis|SQL|AWS,1,8.01
+301,CSE,F,9.37,2,0,3,2,77,46,Python|Data Analysis|SQL|Statistics|Java,1,9.34
+302,IT,M,8.78,1,0,1,0,69,67,Communication|Statistics|Node.js|React,0,0.0
+303,CSE,M,9.7,2,0,4,4,77,83,ML,1,9.57
+304,CSE,M,9.41,0,0,2,1,71,43,AWS|Communication|Python|React,1,8.7
+305,ECE,M,6.31,1,3,4,4,64,89,Leadership|Tableau|AWS|Problem Solving|ML,0,0.0
+306,MECH,M,8.44,1,0,4,1,40,92,Data Analysis|Problem Solving|NLP|Git|Leadership|Java|Tableau|Communication,0,0.0
+307,ECE,F,9.42,2,1,3,0,92,64,C++|Leadership,0,0.0
+308,CSE,F,9.6,2,0,5,4,56,55,SQL|Data Analysis|Java,1,10.18
+309,EEE,M,9.73,1,1,4,2,75,69,Statistics|Data Analysis,1,9.52
+310,ECE,M,9.53,2,0,2,4,78,43,Leadership|Statistics|Data Analysis|React|Java|Tableau|AWS|ML|SQL|Deep Learning,1,11.99
+311,CSE,F,7.69,0,0,3,1,65,44,NLP|Tableau|Git|Java|Power BI|ML|Problem Solving|SQL|Leadership|C++,0,0.0
+312,MECH,F,9.9,3,0,1,4,66,77,Deep Learning|React|Java,1,10.19
+313,ECE,M,9.1,0,0,3,3,75,72,Tableau|SQL|ML|Deep Learning|Communication|Python|Excel|C++,1,7.5
+314,ECE,M,8.99,1,0,5,3,62,51,Statistics|Git|Docker|Power BI|Deep Learning|React,0,0.0
+315,CIVIL,M,9.6,2,3,1,1,43,69,Java|SQL|Statistics|Node.js,0,0.0
+316,ECE,F,8.86,1,1,3,3,77,72,NLP|Leadership|C++|Git|AWS|Docker,0,0.0
+317,ECE,M,8.62,3,0,2,0,73,85,Power BI|Python|Problem Solving|Deep Learning|C++|Statistics,1,8.31
+318,ECE,F,9.83,2,0,4,5,40,67,Data Analysis|Statistics|Problem Solving|Leadership|ML|Excel|AWS|SQL|Docker,1,10.7
+319,ECE,M,7.53,2,2,0,0,80,77,Leadership|Git|React|Tableau|Docker|Java|ML,0,0.0
+320,CSE,M,9.25,0,0,1,0,60,85,Tableau|Data Analysis|Docker|NLP|Deep Learning,0,0.0
+321,CIVIL,F,8.03,0,1,3,5,78,53,React|Git|ML|AWS|Python,1,7.68
+322,CSE,M,8.89,3,1,2,5,81,71,Docker|NLP|Leadership|C++|Java|AWS|SQL,1,10.68
+323,CSE,M,8.64,2,1,4,0,75,92,Problem Solving|Node.js|Data Analysis|Statistics|Excel|Docker|Leadership|AWS|Git,1,10.03
+324,IT,M,8.71,0,3,2,2,52,78,Deep Learning|Problem Solving|Java|Python,0,0.0
+325,ECE,M,9.58,1,2,3,3,61,74,C++|Data Analysis|Java,1,9.33
+326,ECE,F,8.34,3,2,4,5,65,54,C++|React|Docker|Data Analysis|Node.js|ML,1,11.76
+327,IT,M,9.41,1,0,4,5,71,91,React|Docker|AWS|Power BI|Python|Statistics|Communication|SQL,1,10.89
+328,ECE,F,9.2,1,4,1,5,87,94,Docker|Statistics|Communication|Power BI|Java,1,9.16
+329,ECE,M,8.04,2,0,3,2,73,72,Git|Python|Communication,1,8.17
+330,MECH,F,9.25,2,0,5,0,61,68,Power BI|Tableau,1,10.42
+331,CSE,M,8.44,2,0,1,0,54,66,Power BI|Node.js|SQL|Python,0,0.0
+332,EEE,M,9.77,0,2,3,1,79,60,Tableau|Statistics|Java|Git|NLP|React,1,9.0
+333,CSE,M,8.73,1,0,2,5,40,58,Docker|AWS|Leadership|Git|ML,1,5.86
+334,IT,F,9.14,0,0,4,3,51,44,Data Analysis|Communication|Excel|Node.js|C++,1,7.3
+335,IT,M,7.73,3,1,5,5,64,80,Excel|React,0,0.0
+336,CSE,M,8.14,0,0,5,4,51,40,Leadership,1,5.93
+337,IT,M,8.21,2,2,2,3,74,52,Communication|Problem Solving|Leadership|Statistics|SQL|Excel,1,10.41
+338,IT,M,9.57,0,2,5,4,80,83,Excel|ML|AWS|Communication|Tableau|Git|C++,1,9.85
+339,CSE,M,8.46,0,0,0,5,72,89,Statistics|Python|AWS|Tableau,1,6.47
+340,CSE,M,8.05,0,0,1,0,69,53,Docker|AWS|Java|Problem Solving,0,0.0
+341,CIVIL,F,8.34,1,0,1,4,67,55,Statistics|Python|SQL|Problem Solving|React|ML|NLP,0,0.0
+342,IT,F,9.53,1,2,5,3,82,40,Leadership|Python|C++|Git|Data Analysis|Node.js|NLP|Power BI,1,10.74
+343,CSE,F,9.41,0,2,2,1,84,56,Data Analysis|SQL|NLP,1,9.27
+344,EEE,M,9.68,1,0,4,0,100,72,NLP|Docker|Problem Solving|Excel|React|Leadership|Git|Data Analysis|Statistics,1,10.74
+345,CSE,M,9.79,2,2,5,2,65,40,Excel|Leadership|Git|Node.js,1,11.17
+346,IT,F,9.85,3,0,5,5,64,81,Data Analysis|Java|SQL|Excel,1,11.19
+347,CSE,M,8.57,1,2,5,5,58,75,Leadership|SQL|React|NLP|Deep Learning|Python|Data Analysis,1,9.23
+348,IT,F,9.02,1,0,0,5,62,89,React|NLP|Docker,0,0.0
+349,CSE,M,9.44,2,3,4,3,49,61,Excel|NLP|Leadership|AWS|SQL|Git|Python|Deep Learning|React,0,0.0
+350,MECH,M,9.59,1,0,1,2,74,72,Communication|Deep Learning|AWS|Problem Solving|Node.js,0,0.0
+351,MECH,M,7.34,2,0,5,2,81,63,Communication,1,7.6
+352,CSE,F,9.63,1,4,1,4,70,55,Communication|Java|Deep Learning|Power BI|Problem Solving|AWS|ML,0,0.0
+353,IT,M,9.25,3,1,1,3,56,69,Python|Power BI|Data Analysis|Git|Statistics|Communication,1,9.74
+354,ECE,M,9.63,0,1,3,2,69,53,Node.js|NLP|C++|SQL,0,0.0
+355,CSE,M,7.66,0,1,2,0,68,52,Data Analysis|AWS,0,0.0
+356,ECE,F,8.54,3,2,4,4,63,83,Communication|Excel|Power BI,1,8.69
+357,IT,F,9.65,2,0,5,1,60,94,Communication|NLP|Statistics|Power BI,1,9.37
+358,ECE,M,9.24,2,0,4,4,57,82,AWS|Tableau|Statistics|C++|Data Analysis|Git,1,9.91
+359,ECE,M,9.41,1,4,3,2,50,40,Communication,0,0.0
+360,EEE,F,7.72,0,0,4,0,70,67,NLP|Communication,0,0.0
+361,MECH,M,8.8,3,1,5,3,49,70,Docker|Tableau|Leadership|Power BI|Node.js,1,10.2
+362,CSE,F,8.77,0,1,4,5,92,55,Problem Solving|AWS|Git|Data Analysis|Excel,1,9.27
+363,MECH,M,8.19,1,0,1,5,100,52,Python|Java|AWS,1,8.03
+364,IT,M,9.09,1,1,1,4,68,76,ML,1,7.82
+365,IT,M,7.44,1,1,2,1,74,41,Data Analysis|Tableau|SQL|NLP|Docker|Java,0,0.0
+366,ECE,M,9.39,1,1,1,3,61,68,Python|Power BI,1,7.96
+367,ECE,F,7.97,0,0,5,4,59,47,Data Analysis|Excel|ML|Communication|Java,0,0.0
+368,MECH,M,9.79,1,0,2,0,56,80,React|Communication|NLP,1,9.72
+369,EEE,M,9.01,1,0,0,4,77,40,Leadership|Java|Tableau|Git|ML|SQL,0,0.0
+370,MECH,M,8.85,2,0,4,5,40,53,Excel|Leadership,1,7.12
+371,CSE,F,8.78,1,0,2,1,52,65,Python|React|Data Analysis|Leadership|SQL|Statistics|Deep Learning|ML|Node.js|Tableau,1,10.22
+372,MECH,M,8.68,1,0,5,2,59,69,Communication|React|Python|Power BI|Node.js|Problem Solving|Docker,1,9.52
+373,IT,F,7.99,0,3,4,2,46,58,Leadership|AWS|Deep Learning,0,0.0
+374,CSE,M,9.27,2,0,0,1,73,64,Python|Excel|Power BI|SQL|NLP|Node.js|ML|Problem Solving|Data Analysis,1,11.54
+375,ECE,M,9.82,0,1,0,2,60,67,ML|SQL|Communication,0,0.0
+376,CSE,F,9.05,1,1,0,3,61,45,Communication|Leadership|ML,1,9.23
+377,CSE,M,9.06,1,0,3,0,88,66,Docker|Java|NLP,1,8.76
+378,CSE,M,7.96,1,0,5,2,83,50,Docker,1,7.18
+379,CSE,M,9.05,1,3,2,2,73,58,C++|SQL|Java,1,8.97
+380,ECE,F,8.81,1,1,3,4,48,44,C++|AWS|NLP|React,1,7.57
+381,CSE,F,7.58,1,0,3,1,68,84,ML|NLP|Excel|Python|Data Analysis,1,7.59
+382,ECE,M,8.5,2,0,1,4,79,71,Problem Solving|Python|Power BI|AWS|Leadership,1,8.36
+383,ECE,F,8.09,0,1,2,5,51,100,Java|SQL|Data Analysis|Tableau,1,5.97
+384,IT,F,9.09,0,0,3,5,72,64,Problem Solving|Leadership|Tableau|Git|AWS|Node.js,1,8.84
+385,ECE,M,7.86,3,0,2,3,47,69,Communication|Node.js|React,1,7.31
+386,MECH,M,8.23,0,3,1,1,66,66,Data Analysis|Java|Git|SQL|React,0,0.0
+387,IT,F,9.19,1,1,3,0,40,77,React|Statistics,1,7.77
+388,EEE,M,9.46,1,0,2,4,63,52,SQL|Data Analysis,1,8.64
+389,EEE,F,9.13,1,0,4,1,79,77,Git|Tableau,1,8.97
+390,IT,M,8.91,2,0,2,1,41,68,Problem Solving|Python|Java|Leadership|Docker|Git,1,9.11
+391,EEE,M,7.91,1,0,3,2,92,40,Power BI|Leadership|Java|React|Python|AWS|NLP|Docker,0,0.0
+392,EEE,M,9.7,1,3,1,1,49,70,Node.js|Power BI|Docker,1,7.8
+393,CSE,F,9.64,1,1,4,2,72,65,Statistics,1,8.95
+394,ECE,M,9.08,1,1,4,5,64,62,ML|Tableau|Node.js|AWS,0,0.0
+395,MECH,M,9.59,1,2,0,0,69,52,Java|Node.js|ML,0,0.0
+396,MECH,M,9.27,1,1,5,3,69,75,NLP|Python|Node.js,1,9.12
+397,CSE,M,9.05,3,0,4,2,57,58,Docker|Communication|Deep Learning|Leadership,0,0.0
+398,IT,F,9.25,2,1,3,4,62,83,C++|Communication|Tableau|Node.js|ML|Problem Solving|Docker|Excel,1,10.89
+399,IT,M,9.01,1,1,2,3,49,64,Leadership|C++|Tableau|Power BI|Problem Solving,1,9.45
+400,IT,F,7.86,3,0,5,2,55,41,Communication|Leadership|C++,1,8.61
+401,EEE,F,9.86,2,0,3,4,61,99,Data Analysis|Deep Learning|Leadership|Statistics|Communication|Java|Git|SQL,1,10.56
+402,ECE,M,6.72,1,0,0,4,77,84,ML|Problem Solving|Node.js|Docker|Statistics,1,7.26
+403,MECH,M,8.71,0,0,5,3,62,63,Tableau|React|Power BI|Java|Communication|Python,1,7.09
+404,CSE,M,9.43,3,1,4,0,77,85,Docker|SQL|Power BI|React|Excel,1,10.43
+405,CSE,M,7.96,1,0,4,0,88,53,Statistics|AWS|SQL|C++|React,1,9.07
+406,EEE,M,9.91,0,0,1,0,59,90,Git|Statistics|NLP|React|Leadership|Docker|SQL|Python,0,0.0
+407,CSE,M,8.89,1,0,3,2,59,66,Statistics|Power BI|C++|NLP,1,9.14
+408,EEE,M,8.83,1,3,2,5,77,61,Tableau|Leadership|Statistics,0,0.0
+409,EEE,F,9.53,1,0,5,2,72,40,AWS|Git|Node.js|SQL|NLP|Problem Solving,1,10.25
+410,IT,M,9.54,3,0,5,5,58,79,Power BI|SQL|Python|Data Analysis|Leadership,1,9.33
+411,IT,F,9.51,0,1,3,3,80,69,SQL|Problem Solving,0,0.0
+412,CSE,M,8.08,1,0,4,4,74,59,Power BI|Statistics|AWS|Docker|Tableau|Git|Java|React,0,0.0
+413,CSE,M,9.25,1,1,5,2,41,71,Problem Solving|AWS|Communication|ML|Excel,1,8.3
+414,CIVIL,F,8.19,2,0,0,4,58,71,AWS|Excel|Problem Solving|Tableau|Communication|Deep Learning|NLP,0,0.0
+415,CSE,M,9.38,1,1,4,3,58,52,Python|SQL|Problem Solving|Data Analysis|AWS,1,9.34
+416,CSE,M,8.69,1,3,0,2,74,60,ML|SQL|Data Analysis|Docker|Java|React|Python|Deep Learning,0,0.0
+417,CSE,M,8.99,1,0,3,0,55,58,Deep Learning|SQL|Leadership|Docker|NLP|Tableau|Node.js|Python,1,9.15
+418,CSE,M,9.16,2,0,2,1,62,51,Python|AWS|NLP|Data Analysis|Docker,1,9.76
+419,EEE,F,8.88,1,0,1,2,76,73,Java|AWS|SQL|Node.js|Statistics|React,1,8.93
+420,CSE,F,9.01,2,1,3,0,49,41,React|Python|Power BI|Tableau|SQL|Node.js,1,9.31
+421,CIVIL,F,8.79,2,1,5,5,59,76,Statistics|Tableau|C++|NLP|Leadership|Excel|Data Analysis|ML|Java,0,0.0
+422,CSE,F,9.03,3,0,1,4,64,71,Excel|AWS,0,0.0
+423,IT,F,9.32,0,0,1,2,83,75,Data Analysis|Node.js|Power BI|Statistics|React|Communication|AWS,0,0.0
+424,IT,M,8.9,0,0,3,3,68,44,AWS,1,7.14
+425,MECH,F,8.57,2,0,3,1,62,77,Data Analysis|Git|Excel|Communication|SQL|Node.js|Deep Learning,0,0.0
+426,IT,M,8.81,2,0,1,5,70,50,Node.js|ML,1,8.19
+427,CSE,M,9.65,2,1,0,3,48,59,Docker|Git|Communication|Leadership,1,9.93
+428,MECH,M,5.9,2,3,0,3,71,56,SQL|Java,0,0.0
+429,MECH,F,7.95,1,1,0,1,78,58,C++|Statistics|Deep Learning|ML|Data Analysis|React,1,6.26
+430,IT,M,9.16,2,0,3,5,52,70,Docker|Java|Power BI|Excel|ML|Git|Problem Solving|Tableau,0,0.0
+431,ECE,M,9.49,0,2,0,5,67,70,Leadership|C++|Statistics|Deep Learning,1,7.14
+432,CIVIL,M,8.14,0,0,2,5,79,83,Communication|Problem Solving|Python|Statistics|SQL|Leadership|Git|Tableau|C++,1,7.56
+433,CIVIL,M,7.9,0,3,4,4,66,65,Excel|ML|NLP|Docker|Data Analysis|Git|Problem Solving|Deep Learning,1,7.49
+434,CSE,M,9.07,3,0,1,2,68,87,ML|Tableau|C++|Docker|NLP,1,10.26
+435,MECH,F,9.11,1,1,3,5,40,95,NLP,1,8.09
+436,IT,M,8.5,0,0,0,0,71,93,SQL|Leadership|AWS|Tableau|ML|C++,1,8.3
+437,IT,M,8.83,0,0,1,3,81,66,AWS|React|SQL|Deep Learning|Tableau|Node.js,1,8.73
+438,EEE,F,7.78,0,1,3,0,55,55,Data Analysis|Power BI|SQL|Deep Learning|Docker|Communication|C++|Excel,0,0.0
+439,ECE,F,7.25,0,1,3,1,78,43,Python|Node.js|Docker|ML|C++|SQL|AWS,1,6.86
+440,CIVIL,F,7.91,1,0,2,4,78,71,Java|C++|SQL|Python|NLP|Statistics|Tableau,1,8.57
+441,CIVIL,M,8.89,1,2,3,0,49,66,Node.js|Tableau|Data Analysis|Statistics|ML|Problem Solving|C++|Python|Communication|React,1,10.18
+442,IT,M,9.55,1,0,2,4,49,61,Communication|React|Docker|NLP|ML|Python|Statistics|AWS,1,9.23
+443,IT,M,9.36,0,1,3,1,71,65,Tableau|Git|Java|Power BI|Problem Solving|Deep Learning|Python,1,9.46
+444,CSE,M,9.2,2,0,0,0,90,51,NLP|Problem Solving|Leadership|Git|SQL|Java|ML,1,11.71
+445,CSE,F,9.35,2,2,1,0,94,72,Power BI|AWS|Communication|Leadership|Python,1,9.27
+446,EEE,M,7.83,2,0,5,4,64,48,ML|Excel|Leadership|Communication,1,9.17
+447,CSE,M,8.92,2,1,1,2,68,82,ML|Excel|Problem Solving|Data Analysis|Python|Statistics,1,8.15
+448,ECE,M,8.94,2,2,4,3,83,83,NLP|Git|Excel|C++|Power BI,1,9.44
+449,CSE,M,9.72,0,1,3,4,72,86,Data Analysis,1,8.47
+450,IT,M,9.13,2,0,5,2,100,57,Java|C++|AWS|Excel,1,9.37
+451,IT,M,9.72,3,0,2,4,54,75,Docker|Git|NLP|Data Analysis|Problem Solving,1,10.28
+452,ECE,M,9.44,3,2,2,3,87,55,Leadership|SQL|NLP|Problem Solving|C++,1,10.09
+453,CSE,M,8.69,3,0,1,3,96,81,NLP|SQL|C++|ML|Git|Python|Java|Data Analysis,1,11.03
+454,CIVIL,F,7.46,1,3,5,4,75,63,C++|Communication|Python|Excel|ML,1,7.29
+455,IT,M,8.44,0,0,1,0,62,60,Docker|Power BI|Data Analysis|Excel|NLP|Leadership|Python|AWS|Git|SQL,1,9.54
+456,ECE,F,9.56,3,0,5,2,61,74,Data Analysis|Deep Learning|Node.js|AWS|React|Excel|Leadership|Communication,1,11.09
+457,CSE,F,8.87,2,0,4,0,45,80,SQL|Power BI|Statistics|Node.js|Leadership,1,9.54
+458,CSE,F,6.34,1,1,5,4,61,68,Leadership|Tableau|Python|Docker|C++|Excel,1,6.9
+459,IT,M,8.19,0,0,1,1,66,79,Deep Learning|Problem Solving|Communication|AWS|Node.js|Docker|ML|React|Python,0,0.0
+460,CSE,F,9.51,2,0,4,1,40,55,Power BI|NLP|Deep Learning|Data Analysis|Python,1,9.46
+461,CSE,M,7.92,1,0,0,5,48,85,Docker|Deep Learning|Tableau|Statistics|SQL|Power BI|C++,1,8.17
+462,MECH,M,8.03,1,0,1,1,99,68,C++|Power BI|ML|Node.js|Docker|Tableau,1,7.9
+463,CIVIL,F,8.76,2,5,1,0,48,57,AWS,0,0.0
+464,CSE,M,7.75,0,0,0,3,41,71,Leadership|React|SQL|Excel,1,7.71
+465,ECE,M,9.42,1,0,1,5,100,45,Python|Leadership|Problem Solving,1,9.19
+466,CSE,F,9.39,2,2,4,2,59,89,ML|Java|Problem Solving|Git|Excel|Leadership|NLP|C++|Communication,1,11.27
+467,CIVIL,M,9.63,1,0,1,0,62,80,React|Python|Statistics|Data Analysis|C++,1,9.44
+468,MECH,F,9.05,2,5,2,4,44,67,Docker|Statistics|Power BI|NLP|Node.js,1,9.58
+469,EEE,M,8.49,1,2,1,0,100,84,SQL|Node.js,1,9.07
+470,ECE,M,9.86,1,3,3,2,52,63,Python|NLP|SQL|React|Node.js|C++|Problem Solving|Docker|Communication,1,10.46
+471,IT,F,7.45,1,1,2,0,70,53,C++|Problem Solving|Node.js|Python|ML|SQL|AWS|NLP,1,9.05
+472,IT,F,8.04,0,0,5,2,42,73,Docker|React|Deep Learning|Git,0,0.0
+473,CSE,M,9.53,0,0,2,1,65,40,Power BI,1,9.02
+474,CSE,F,9.64,3,0,0,1,61,41,Statistics|Excel|Node.js|Data Analysis,1,9.32
+475,EEE,F,8.6,1,1,4,1,85,63,C++|AWS|Python|Deep Learning|Leadership|ML|Java|Data Analysis|Node.js,1,8.88
+476,MECH,M,7.19,0,1,0,0,89,72,Tableau|React|Statistics|NLP|Communication,0,0.0
+477,CSE,F,9.91,0,3,5,0,48,83,React|Node.js|Data Analysis|Tableau|Python|AWS|SQL|Statistics,1,10.5
+478,ECE,M,9.12,2,0,5,4,100,85,Leadership|ML|Docker|Statistics,1,9.19
+479,IT,M,7.51,1,5,5,1,64,57,Tableau|C++|Docker|SQL|Excel|Java|AWS,1,5.53
+480,MECH,M,8.99,3,3,1,0,52,75,Problem Solving|Statistics|Git,1,9.96
+481,EEE,M,8.31,1,2,3,2,73,61,Leadership|ML|C++,1,7.88
+482,CSE,F,8.68,1,3,2,3,53,51,AWS|ML|Deep Learning|Power BI,0,0.0
+483,EEE,M,7.88,3,1,4,0,40,86,Python|Leadership|Data Analysis|React|Power BI|Deep Learning|Problem Solving|Excel,1,9.49
+484,ECE,M,9.93,2,5,0,0,53,70,NLP|Tableau|ML|Git|AWS|C++|Communication|Docker,1,10.87
+485,ECE,M,9.24,2,2,4,1,70,73,Docker|Data Analysis|Leadership|AWS|React|Java,1,11.77
+486,CSE,M,8.19,2,0,3,1,49,43,Data Analysis|ML|NLP|Git,1,7.9
+487,ECE,F,9.4,3,0,5,2,83,53,Excel|Node.js|Communication|ML|SQL|Git,1,11.88
+488,CSE,M,9.23,0,0,3,0,53,71,Git|NLP,0,0.0
+489,CIVIL,F,8.99,2,2,1,1,43,40,Tableau,0,0.0
+490,CSE,M,8.7,1,2,5,1,62,68,Data Analysis|Node.js|ML|Leadership|C++,1,8.19
+491,ECE,M,9.62,1,0,5,2,61,100,SQL|ML|React|Communication|Power BI,1,9.02
+492,CSE,M,7.16,0,2,4,5,49,51,C++|Docker|Statistics|SQL|Tableau|ML|Deep Learning|NLP,1,7.64
+493,ECE,M,9.25,2,4,5,1,62,44,Git|Docker|Power BI|NLP|Leadership|C++|Problem Solving,1,9.91
+494,IT,F,8.36,1,0,4,3,44,64,Data Analysis|Leadership|Java,1,7.18
+495,CSE,M,8.43,0,0,2,5,71,89,ML|Tableau|Communication,0,0.0
+496,MECH,F,8.65,2,3,1,2,51,59,C++|Python,1,7.0
+497,IT,F,9.75,1,2,2,2,92,76,Deep Learning|Excel|Node.js|Docker|Python,1,10.77
+498,CSE,M,8.97,2,5,5,2,68,79,Python|Node.js|C++|React|Tableau|Statistics,0,0.0
+499,MECH,M,8.56,1,5,1,2,64,82,Problem Solving|Deep Learning|Python|C++|Tableau|SQL|Excel,1,9.33
+500,IT,M,7.73,2,1,5,2,56,89,C++|NLP|Deep Learning,0,0.0
+501,MECH,M,9.42,0,0,4,4,72,66,Data Analysis|C++|Problem Solving|Leadership|NLP|Power BI,0,0.0
+502,CIVIL,M,9.19,1,1,3,0,78,66,AWS|C++|Deep Learning|Communication|Statistics|Java|Excel,1,9.88
+503,IT,M,8.3,1,5,3,3,78,71,C++|Data Analysis,1,8.27
+504,MECH,F,9.61,2,0,3,0,50,67,Excel|SQL|Tableau,1,9.52
+505,CSE,M,7.87,1,1,4,3,52,66,Python|Communication|NLP|Node.js|Deep Learning|Leadership|Docker|ML|Power BI|C++,0,0.0
+506,IT,M,8.17,2,0,5,2,63,69,Git|ML|Python|Power BI,1,9.31
+507,CSE,M,9.45,0,0,4,0,68,60,React|Docker|ML|Tableau|Excel,1,8.86
+508,CIVIL,F,8.63,0,0,4,0,60,77,Deep Learning|Tableau|React|Node.js|Leadership|SQL|Python|Docker|C++,1,8.64
+509,IT,M,8.26,1,5,5,0,58,82,Docker|Statistics|Python,0,0.0
+510,MECH,M,7.56,0,1,1,1,62,62,Power BI|Git|Java,0,0.0
+511,CSE,M,9.52,0,1,1,0,83,68,Tableau|Deep Learning|Git|Data Analysis|C++,1,10.15
+512,IT,F,9.18,2,0,0,5,45,81,Data Analysis|AWS|NLP,0,0.0
+513,EEE,M,6.98,0,0,3,4,72,78,Data Analysis|Tableau|Java|Deep Learning|Leadership|Git,0,0.0
+514,CSE,F,9.28,1,0,1,0,73,40,Python|Problem Solving|AWS|Excel|Communication|Leadership|Docker|NLP|Node.js,1,12.04
+515,MECH,M,9.85,1,0,2,4,61,54,Statistics|Git|Tableau|Python|Excel|NLP|SQL|Data Analysis|React,0,0.0
+516,ECE,M,8.75,0,0,0,4,86,73,React|Communication|Docker,1,8.31
+517,ECE,M,8.24,0,1,0,1,71,90,Git|Leadership|NLP|React|Communication|Statistics|C++|Tableau|Docker|Node.js,0,0.0
+518,ECE,M,9.05,1,0,0,1,88,40,Docker|AWS|Deep Learning|Python|NLP|Data Analysis|ML,0,0.0
+519,CSE,M,9.22,1,1,3,4,74,66,Docker|AWS|Excel|Data Analysis|Communication|Statistics|Git|NLP|Tableau,1,11.62
+520,MECH,F,8.04,1,1,0,3,57,76,NLP|Leadership|Problem Solving|ML|AWS,0,0.0
+521,ECE,M,8.62,0,1,0,1,62,79,Communication|Leadership,1,8.0
+522,MECH,M,8.22,1,0,0,4,40,46,Excel|SQL|Leadership|C++|AWS,0,0.0
+523,EEE,F,9.26,0,0,5,3,89,40,AWS|Git|Excel|C++,1,7.09
+524,IT,M,8.18,1,1,4,4,81,78,Excel|Java|Tableau|NLP,1,7.54
+525,MECH,M,7.54,0,1,0,4,59,72,C++|SQL|Communication|Java|Docker|Deep Learning|Excel|Problem Solving|AWS|Statistics,1,9.27
+526,MECH,M,7.28,3,0,3,1,83,71,ML|Node.js|Power BI|Tableau,1,8.7
+527,ECE,M,9.6,1,2,1,0,73,81,Tableau|SQL|Communication,1,7.75
+528,MECH,M,8.04,1,0,2,1,94,84,Python|ML|Tableau|Excel,1,7.89
+529,IT,M,8.93,0,0,4,4,76,51,ML|Statistics|Git|NLP|Deep Learning,1,8.36
+530,CSE,F,7.83,0,1,1,0,76,85,Communication|Docker|Power BI|ML|C++,1,7.08
+531,IT,F,9.31,0,0,4,3,46,68,Leadership|Git|Communication|Tableau,0,0.0
+532,MECH,M,9.83,0,0,4,2,70,48,Problem Solving|Excel|React|NLP|Tableau|AWS|Communication|Java|Power BI|Node.js,0,0.0
+533,CIVIL,M,9.41,1,3,2,3,85,58,Leadership|Java|Statistics|Problem Solving|Excel|Node.js|Communication|Data Analysis|NLP,0,0.0
+534,EEE,M,8.3,1,0,0,3,77,74,Leadership|Excel|Tableau|Statistics|Deep Learning,1,9.33
+535,CSE,F,7.17,1,0,0,2,64,58,NLP|SQL|Java|Node.js|React|C++,0,0.0
+536,CSE,F,8.85,0,2,0,3,59,75,ML|Git,1,8.26
+537,MECH,M,9.74,1,0,2,1,76,72,Deep Learning|React|SQL|AWS,1,10.19
+538,CIVIL,F,9.68,0,0,5,4,75,66,React|Docker|Java|C++|Problem Solving|Node.js|Excel|Leadership,1,9.46
+539,ECE,M,8.84,0,0,0,4,42,64,ML|Deep Learning,1,7.12
+540,CSE,M,7.63,1,0,3,1,56,74,React|Docker|Power BI|Java|ML,1,8.0
+541,ECE,M,9.83,1,1,1,0,46,68,SQL|NLP|Java|Data Analysis|Deep Learning|Git|Leadership|Tableau,1,10.63
+542,EEE,M,8.69,2,0,3,2,96,62,C++|React,1,10.89
+543,CSE,M,6.87,0,1,5,1,86,45,Excel|Communication|Tableau,0,0.0
+544,IT,F,8.29,1,1,3,0,43,61,Excel|Git|AWS,1,7.43
+545,EEE,F,8.48,2,2,4,4,88,64,Problem Solving|Statistics|Python,1,7.6
+546,ECE,F,8.65,0,0,3,0,65,63,Problem Solving|ML,0,0.0
+547,CSE,M,8.43,1,1,1,5,78,59,Tableau|NLP|Python|Git,1,8.54
+548,IT,F,9.84,0,1,2,1,64,77,Git|Statistics|Node.js,0,0.0
+549,CSE,M,8.99,1,1,0,3,40,67,Communication,0,0.0
+550,CSE,M,8.85,0,0,2,5,75,73,Statistics|Leadership|Python|ML|Tableau,1,7.69
+551,CSE,M,8.71,0,4,4,3,54,84,Data Analysis|Problem Solving|Deep Learning|Excel|C++|Statistics|Power BI,0,0.0
+552,CSE,F,8.49,2,1,4,2,56,67,Python|React,1,8.75
+553,ECE,F,8.34,0,2,1,0,76,72,Deep Learning|Statistics|Communication|Node.js,1,8.06
+554,CSE,F,7.6,0,1,1,5,40,64,Data Analysis|SQL|Tableau|Excel|Docker,1,6.49
+555,ECE,F,7.89,2,0,3,4,72,64,Java|Docker|Tableau,1,9.35
+556,CSE,M,9.8,1,0,3,1,76,58,C++|Tableau|React|Communication|Deep Learning,1,9.9
+557,ECE,M,8.75,0,2,0,4,57,48,Statistics|Git|AWS|SQL|Python,1,9.17
+558,ECE,M,7.64,1,0,3,0,40,78,Docker,1,6.72
+559,CSE,M,7.97,2,1,2,4,69,48,Git|Power BI|Node.js|Docker,1,8.87
+560,ECE,M,9.14,2,0,0,3,77,40,AWS|SQL|Tableau,1,8.09
+561,CSE,F,9.48,2,4,1,2,65,79,AWS|Statistics|Node.js|Git|React|Communication|Python,1,10.54
+562,IT,M,8.27,0,0,5,0,84,83,Docker|Data Analysis|Leadership|Excel|Power BI|AWS,1,7.38
+563,EEE,M,9.54,3,2,0,1,77,74,ML|Tableau|NLP|Deep Learning|React|SQL|Git,1,11.62
+564,IT,M,9.37,1,1,0,2,61,76,React|Communication,1,8.04
+565,ECE,M,8.54,2,0,5,1,50,44,Power BI|Git|Deep Learning|Java,1,8.41
+566,CSE,F,8.53,0,0,2,4,40,49,Statistics|Python|Docker|React|ML,1,7.6
+567,EEE,M,9.27,2,1,4,2,57,84,Git|Data Analysis|Deep Learning|Java|Problem Solving,0,0.0
+568,ECE,M,7.89,0,0,2,0,59,74,Docker|Leadership|SQL|AWS|Deep Learning|C++|Data Analysis,0,0.0
+569,IT,F,9.97,1,0,3,5,63,59,Problem Solving|Deep Learning|AWS|Communication,1,10.33
+570,EEE,F,8.84,0,2,4,1,50,40,Excel|Java,0,0.0
+571,CIVIL,M,7.33,3,1,5,5,57,56,Leadership|ML|Data Analysis|AWS|Docker,0,0.0
+572,CSE,F,8.69,0,0,2,0,50,91,C++|Communication|Java|Node.js|Power BI|ML,1,9.46
+573,CSE,M,8.47,0,0,5,4,67,84,Problem Solving|Power BI|SQL|Docker|Data Analysis|Statistics|React|Leadership|Excel,0,0.0
+574,CSE,M,9.05,1,0,5,3,96,41,Leadership|AWS,0,0.0
+575,IT,M,8.95,1,4,1,1,59,74,Power BI|SQL|Leadership|React|Node.js,1,10.84
+576,CIVIL,M,8.5,1,3,2,4,64,43,AWS|SQL|Tableau|C++|Docker|Statistics|Data Analysis|Node.js,1,8.3
+577,ECE,M,8.53,0,0,2,1,50,81,C++|Tableau|Leadership|Java|Python|Git,1,8.86
+578,EEE,M,8.5,0,2,4,3,49,75,Docker|Python,0,0.0
+579,MECH,M,8.34,0,0,2,1,65,47,NLP|Tableau|Git,1,8.48
+580,IT,M,8.12,1,3,5,5,80,67,AWS|Node.js,1,8.25
+581,CIVIL,M,9.43,1,5,3,5,82,66,NLP|Power BI|Excel|Node.js|ML,0,0.0
+582,CSE,M,8.46,0,0,4,5,56,58,Node.js|Statistics|Leadership|Data Analysis,1,6.59
+583,MECH,F,8.54,1,1,1,0,67,88,ML|Java|Leadership|Deep Learning|Power BI|Tableau,1,8.34
+584,CSE,M,8.48,0,0,2,5,60,100,Power BI|React|Deep Learning|Node.js|Excel|Git|Data Analysis,0,0.0
+585,IT,M,8.75,0,0,2,4,65,81,Python|Deep Learning|Data Analysis|Node.js|React,0,0.0
+586,IT,M,8.17,1,0,5,0,69,65,React|Deep Learning|Power BI|C++|Excel|NLP,0,0.0
+587,CSE,F,9.05,3,1,5,4,77,74,Statistics|Excel|Tableau|Docker|Deep Learning|Leadership,1,10.78
+588,ECE,M,8.77,1,1,1,1,70,78,ML|Python|Problem Solving|Java|Tableau|React|Node.js,1,9.35
+589,CSE,F,9.42,2,0,5,0,67,42,Node.js|Deep Learning|Tableau,1,9.59
+590,IT,M,7.78,1,0,4,1,69,68,Deep Learning|Problem Solving|Docker|Statistics,0,0.0
+591,IT,M,8.88,2,0,4,3,62,60,Deep Learning|Java|Excel|React|AWS,1,9.29
+592,EEE,M,8.73,2,1,0,2,59,40,Power BI|C++|SQL|ML|Statistics|Problem Solving,1,8.92
+593,CSE,M,8.41,0,0,0,3,66,87,AWS|SQL|Excel|Tableau,1,8.12
+594,ECE,M,9.23,1,0,2,2,55,65,Communication|AWS,1,8.87
+595,IT,M,9.32,0,3,2,4,46,59,Problem Solving|NLP|SQL,0,0.0
+596,CSE,M,8.97,1,1,3,5,97,84,Tableau|Power BI|Deep Learning|Python|Leadership|Communication|Data Analysis|Node.js|ML|Docker,1,11.89
+597,CSE,M,9.33,1,0,1,3,69,43,Data Analysis|Excel|Git|Communication|Node.js,1,8.85
+598,EEE,F,8.96,2,0,4,4,40,73,ML|Docker|Problem Solving|AWS,1,9.88
+599,EEE,M,8.0,0,1,5,5,57,100,Power BI|NLP|Java|Deep Learning|Git,0,0.0
+600,IT,M,7.25,0,0,3,4,63,77,Node.js|React|NLP|Problem Solving|Java|Power BI,1,7.19

@@ -1,0 +1,22 @@
+{
+  "Data Scientist": ["Python", "ML", "Statistics", "SQL", "Deep Learning", "NLP"],
+  "Data Analyst": ["SQL", "Python", "Statistics", "Excel", "Tableau", "Data Analysis"],
+  "ML Engineer": ["Python", "ML", "Deep Learning", "Docker", "AWS", "Git"],
+  "Full Stack Developer": ["React", "Node.js", "SQL", "Git", "Docker", "AWS"],
+  "Backend Developer": ["Java", "Python", "SQL", "Docker", "AWS", "Git"],
+  "Frontend Developer": ["React", "Git", "Problem Solving", "Communication"],
+  "Business Analyst": ["Excel", "Tableau", "Communication", "SQL", "Statistics", "Leadership"],
+  "Cloud Engineer": ["AWS", "Docker", "Git", "Python", "Problem Solving"],
+  "DevOps Engineer": ["Docker", "AWS", "Git", "Python", "Problem Solving"],
+  "NLP Engineer": ["Python", "NLP", "Deep Learning", "ML", "Statistics"],
+  "Computer Vision Engineer": ["Python", "Deep Learning", "ML", "Statistics"],
+  "Database Administrator": ["SQL", "Python", "Statistics", "Problem Solving"],
+  "Product Manager": ["Leadership", "Communication", "Excel", "Statistics", "Problem Solving"],
+  "Research Scientist": ["Python", "ML", "Statistics", "Deep Learning", "NLP"],
+  "Embedded Systems Engineer": ["C++", "Problem Solving", "Git"],
+  "Cybersecurity Analyst": ["Python", "Problem Solving", "Git", "AWS"],
+  "BI Developer": ["SQL", "Tableau", "Power BI", "Excel", "Data Analysis"],
+  "AI Engineer": ["Python", "Deep Learning", "ML", "AWS", "Docker"],
+  "Software Engineer": ["Python", "Java", "Git", "SQL", "Problem Solving"],
+  "Scrum Master": ["Leadership", "Communication", "Problem Solving"]
+}

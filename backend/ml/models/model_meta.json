@@ -1,0 +1,70 @@
+{
+  "feature_names": [
+    "cgpa",
+    "internships",
+    "backlogs",
+    "projects",
+    "certifications",
+    "aptitude_score",
+    "communication_score",
+    "branch_encoded",
+    "gender_encoded",
+    "skill_count",
+    "has_python",
+    "has_ml",
+    "has_sql"
+  ],
+  "human_feature_names": [
+    "CGPA",
+    "Internships",
+    "Backlogs",
+    "Projects",
+    "Certifications",
+    "Aptitude Score",
+    "Communication Score",
+    "Branch",
+    "Gender",
+    "Skill Count",
+    "Has Python",
+    "Has ML",
+    "Has SQL"
+  ],
+  "branch_map": {
+    "CSE": 0,
+    "IT": 1,
+    "ECE": 2,
+    "EEE": 3,
+    "MECH": 4,
+    "CIVIL": 5
+  },
+  "gender_map": {
+    "M": 0,
+    "F": 1
+  },
+  "all_skills": [
+    "Python",
+    "Java",
+    "SQL",
+    "ML",
+    "Deep Learning",
+    "NLP",
+    "React",
+    "Node.js",
+    "AWS",
+    "Docker",
+    "Git",
+    "Statistics",
+    "Excel",
+    "Tableau",
+    "Power BI",
+    "C++",
+    "Data Analysis",
+    "Communication",
+    "Leadership",
+    "Problem Solving"
+  ],
+  "placement_accuracy": 0.5917,
+  "placement_f1": 0.7135,
+  "salary_r2": 0.5531,
+  "salary_rmse": 0.837
+}
