@@ -1,85 +1,145 @@
-# PlaceWise — Campus Placement & Skill Gap Analytics Platform
+# 🎓 PlaceWise — Campus Placement & Skill Gap Analytics Platform
 
-PlaceWise is a high-fidelity Campus Placement Prediction and Skill Gap Analytics platform powered by Machine Learning (XGBoost & SHAP) and FastAPI/React.
-
-## Technology Stack
-
-* **Frontend**: React (Vite) + Tailwind CSS v4 + Recharts + Framer Motion + Lucide Icons + Axios
-* **Backend**: FastAPI (Python 3.14 compatible)
-* **Database**: MongoDB (via Motor async driver)
-* **Authentication**: JWT authentication with direct bcrypt hashing
-* **Machine Learning**: Pandas, NumPy, Scikit-Learn, XGBoost, SHAP, Joblib
+PlaceWise is a modern, high-fidelity **Campus Placement Prediction & Skill Gap Analytics platform** powered by Machine Learning (XGBoost & SHAP explainability), FastAPI, and React. It helps students simulate placement scenarios, analyze skill gaps, and explore AI-driven career recommendations.
 
 ---
 
-## Features
+## 🚀 Key Features
 
-1. **Dashboard**: Overall campus trend visualizations, branch metrics, and quick simulation logs.
-2. **Placement Predictor**: Multi-variable XGBoost classification modeling for individual profiles.
-3. **CTC package Estimator**: XGBoost regression model calculating starting salary LPA.
-4. **Explainable AI (SHAP)**: Attribute graph illustrating how CGPA, specific skills, and internships affected the predicted scores.
-5. **Skill Gap Analyzer**: Radar charts comparing current skillsets against standard industry roles (e.g. Data Scientist, QA Engineer).
-6. **AI Career recommendations**: Cosine similarity algorithm calculating match percentages for 15+ roles.
-7. **PDF Report Downloader**: Streamed ReportLab PDF builder exporting prediction results, SHAP charts, and career recommendations.
+* **📊 Interactive Dashboard**: Real-time campus placement trends, branch metrics, and quick simulation logs.
+* **🔮 Placement Predictor**: Multi-variable XGBoost classification predicting placement probability.
+* **💸 Salary Estimator**: XGBoost regression model estimating starting salary CTC packages.
+* **🧠 Explainable AI (SHAP)**: Feature importance charts demonstrating how CGPA, specific skills, and internships affect the prediction.
+* **🕸️ Skill Gap Analyzer**: Interactive Recharts Radar charts comparing current skillsets against standard industry roles (e.g., Data Scientist, QA Engineer).
+* **🎯 AI Career Matcher**: Cosine similarity algorithm calculating match percentages for 15+ specialized technical roles.
+* **📄 PDF Report Downloader**: Instant streamed ReportLab PDF builder containing prediction results, SHAP charts, and career recommendations.
+* **🌓 Theme Switcher**: Sleek system-integrated light and dark mode toggles with a premium glassmorphic UI.
 
 ---
 
-## Setup & Startup Instructions
+## 🛠️ Technology Stack
+
+| Layer | Technologies |
+| :--- | :--- |
+| **Frontend** | React (Vite) + Tailwind CSS v4 + Recharts + Framer Motion + Lucide Icons + Axios |
+| **Backend** | FastAPI (Python 3.11+) + Uvicorn |
+| **Database** | MongoDB Atlas (via Motor async driver) |
+| **Machine Learning** | Pandas, NumPy, Scikit-Learn, XGBoost, SHAP, Joblib |
+| **Authentication** | JWT Authentication with secure custom Bcrypt hashing |
+
+---
+
+## ⚙️ Monorepo Architecture
+
+```text
+Placewise/
+├── backend/                  # FastAPI Backend API
+│   ├── app/
+│   │   ├── routers/          # API Route Controllers (auth, predict, careers, etc.)
+│   │   ├── services/         # Business Logic (ML prediction, SHAP, PDF reports)
+│   │   └── database.py       # Async MongoDB Connection setup
+│   ├── ml/
+│   │   ├── models/           # Trained model binaries (.joblib)
+│   │   ├── train.py          # XGBoost Training Pipeline
+│   │   └── seed.py           # Database Seeder
+│   └── requirements.txt      # Python Dependencies
+├── frontend/                 # React Frontend (Vite)
+│   ├── src/
+│   │   ├── components/       # Layouts & Protected Routes
+│   │   ├── context/          # Auth & Theme State Providers
+│   │   ├── pages/            # View Screens (Dashboard, Predict, SkillGap, etc.)
+│   │   └── api/              # Axios Client Settings
+│   └── vercel.json           # Vercel Deployment Configuration
+```
+
+---
+
+## 💻 Local Development Setup
 
 ### Prerequisites
-* **Python** (version 3.12+ recommended, works with 3.14)
-* **Node.js** (version 20+ recommended)
-* **MongoDB** (running locally on port 27017 or a remote Atlas cluster URI)
+* **Python 3.11+** installed
+* **Node.js 20+** installed
+* **MongoDB** (running locally on port `27017` or a remote Atlas connection string)
 
----
-
-### 1. Backend Server Setup
-
-1. Open a terminal and navigate to the `backend/` directory:
+### 1. Backend Setup
+1. Navigate to the `backend` folder:
    ```bash
    cd backend
    ```
-2. Install Python dependencies:
+2. Create and activate a virtual environment:
    ```bash
-   py -m pip install -r requirements.txt
-   py -m pip install email-validator
+   python -m venv venv
+   # On Windows:
+   .\venv\Scripts\activate
+   # On macOS/Linux:
+   source venv/bin/activate
    ```
-3. Run the ML Model Training Script (generates datasets, trains XGBoost, saves model joblib files):
+3. Install dependencies:
    ```bash
-   py ml/train.py
+   pip install -r requirements.txt
    ```
-4. Run the Database Seeder (creates demo credentials and dashboard simulation history logs):
+4. Set up environment variables by copying `.env.example` to `.env`:
    ```bash
-   py ml/seed.py
+   cp .env.example .env
    ```
-5. Start the FastAPI development server:
+5. Run the ML pipeline to train XGBoost models:
    ```bash
-   py -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+   python ml/train.py
    ```
+6. Seed the MongoDB database with demo profiles:
+   ```bash
+   python ml/seed.py
+   ```
+7. Start the Uvicorn server:
+   ```bash
+   python -m uvicorn app.main:app --reload
+   ```
+   *The backend will be running at `http://127.0.0.1:8000`.*
 
----
-
-### 2. Frontend App Setup
-
-1. Open another terminal and navigate to the `frontend/` directory:
+### 2. Frontend Setup
+1. Navigate to the `frontend` folder:
    ```bash
    cd frontend
    ```
-2. Install frontend dependencies:
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. Start the Vite React development server:
+3. Run the development server:
    ```bash
    npm run dev
    ```
-4. Open your browser and navigate to `http://localhost:5173/`.
+4. Open `http://localhost:5173/` in your browser.
 
 ---
 
-### 3. Demo Credentials
+## ☁️ Cloud Deployment Guide
 
-To check the pre-populated dashboard charts and prediction logs immediately:
+### Backend: FastAPI on **Render**
+1. Create a new **Web Service** on Render pointing to your GitHub repository.
+2. Select **Python** runtime environment.
+3. Set **Root Directory** to `backend`.
+4. Set **Build Command**: `pip install -r requirements.txt && python ml/train.py`
+5. Set **Start Command**: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+6. Add the following **Environment Variables** in the Render settings panel:
+   * `MONGODB_URI` *(Your MongoDB Atlas connection URI)*
+   * `JWT_SECRET` *(Your JWT secret)*
+   * `ALLOWED_ORIGINS` *(Include your Vercel frontend URL)*
+   * `ENVIRONMENT` = `production`
+
+### Frontend: React on **Vercel**
+1. Create a new **Project** in Vercel and import your repository.
+2. Set **Root Directory** to `frontend`.
+3. Set **Framework Preset** to `Vite`.
+4. Add the following **Environment Variable**:
+   * `VITE_API_URL` = `https://your-backend-name.onrender.com`
+5. Click **Deploy**.
+
+---
+
+## 🔑 Demo Credentials
+
+To access pre-populated simulation histories and check the interactive dashboard instantly:
 * **Demo Email**: `student@example.com`
 * **Demo Password**: `student123`
-* Alternatively, register a new account and fill in your own parameters!
+* *Or register a fresh account and test custom profiles!*
