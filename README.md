@@ -1,6 +1,14 @@
 # 🎓 PlaceWise — Campus Placement & Skill Gap Analytics Platform
 
+<div align="center">
+
+[![Live Web App](https://img.shields.io/badge/Live_Demo-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://placewise-m.vercel.app/)
+[![API Backend](https://img.shields.io/badge/API_Backend-Render-darkblue?style=for-the-badge&logo=render&logoColor=white)](https://placewise-t3b2.onrender.com)
+
+</div>
+
 PlaceWise is a modern, high-fidelity **Campus Placement Prediction & Skill Gap Analytics platform** powered by Machine Learning (XGBoost & SHAP explainability), FastAPI, and React. It helps students simulate placement scenarios, analyze skill gaps, and explore AI-driven career recommendations.
+
 
 ---
 
