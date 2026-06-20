@@ -44,6 +44,15 @@ app.include_router(dashboard.router, prefix="/api")
 app.include_router(reports.router,   prefix="/api")
 
 
+@app.get("/")
+async def root():
+    return {
+        "message": "Welcome to the PlaceWise API",
+        "docs_url": "/docs",
+        "health_url": "/health"
+    }
+
+
 @app.get("/health")
 async def health():
     return {
@@ -51,3 +60,4 @@ async def health():
         "version": "1.0.0",
         "models_loaded": ml_service._loaded,
     }
+
